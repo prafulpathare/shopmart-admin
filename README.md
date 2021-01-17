@@ -1,6 +1,6 @@
 # Shopmart Admin Client
 
-#### Replace angular.json:31
+Replace angular.json:31
 ```json
 "styles": [
     "src/styles.css",
@@ -17,9 +17,8 @@
     ]
 ]
 ```
-```
 
-#### Run 
+Run 
 ```bash
 $ npm install
 $ ng build
