@@ -1,7 +1,7 @@
 # Shopmart Admin Client
 
 #### Replace angular.json:31
-'''
+```json
 "styles": [
     "src/styles.css",
     "node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css",
@@ -17,10 +17,11 @@
     ]
 ]
 ```
+```
 
 #### Run 
-'''bash
+```bash
 $ npm install
 $ ng build
 $ ng serve
-'''
+```
