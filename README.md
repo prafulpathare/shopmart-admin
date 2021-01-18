@@ -1,6 +1,6 @@
 # Shopmart Admin Client
 
-Replace angular.json:31
+Replace styles and scripts content from [angular.json:26](https://github.com/prafulpathare/shopmart-admin/blob/master/angular.json) if you have created new app with _ng new_
 ```json
 "styles": [
     "src/styles.css",
@@ -21,6 +21,10 @@ Replace angular.json:31
 Run 
 ```bash
 $ npm install
-$ ng build
+$ npm install admin-lte@^3.0 --save
 $ ng serve
 ```
+
+References
+- [Coding Locker](https://www.youtube.com/watch?v=dlBb1Z_8FiI)
+
