@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-signin',
@@ -15,7 +16,8 @@ export class SigninComponent implements OnInit {
   })
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -32,5 +34,6 @@ export class SigninComponent implements OnInit {
         localStorage.setItem("jwt", data['token']);
         console.log(data)
       })
+      this.router.navigate([''])
     }
 }
